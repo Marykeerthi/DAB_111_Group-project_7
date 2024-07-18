@@ -1,0 +1,10 @@
+### To create web page ###
+pip install -U Flask
+###To handle Dataframe ###
+pip install Pandas
+
+###To Import both flask,run the server and pandas ### 
+from flask import Flask,render_template_string,render_template  #render_template_string is direct raw html file ,render_template is used for importing an html file
+from werkzeug.serving import run_simple # to import and run a server
+import pandas as pd
+
