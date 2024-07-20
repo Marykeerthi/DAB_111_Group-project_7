@@ -1,0 +1,8 @@
+
+pip install -U Flask
+pip install Pandas
+from flask import Flask,render_template_string,render_template
+from werkzeug.serving import run_simple
+import pandas as pd
+import csv 
+
